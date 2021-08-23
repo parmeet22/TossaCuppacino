@@ -2,6 +2,9 @@
 const formSubscribe = document.querySelector(".form-subscribe");
 const email = document.querySelector("#email");
 const subscribeMsg = document.querySelector('#subscribe');
+// const coffeeAudio = document.querySelector('#coffeeAudio');
+
+
 formSubscribe.addEventListener("submit", (e) => { 
 e.preventDefault();
 var myHeaders = new Headers();

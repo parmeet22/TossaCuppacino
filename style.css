@@ -22,7 +22,17 @@
             position:fixed;
             
           }
-    
+        .coffee-audio {
+          opacity: 0.2;
+          position: fixed;
+          margin: 10px;
+          left: 0;
+          bottom: 0;
+          transition: opacity 0.3s ease;
+          }
+          .coffee-audio:hover {
+            opacity: 0.5;
+            }
         #subscribe {
             font-weight: 400;
             margin-bottom: 25px;
