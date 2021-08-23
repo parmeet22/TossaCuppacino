@@ -15,7 +15,7 @@
         .gif-bg {
             width: 100vw;
             height: 100vh;    
-            background-image:  url(Coming-soon.gif);
+            background-image:  url(./static/Coming-soon.gif);
             background-repeat: no-repeat;
             background-position: center center;
             background-size:cover;	
@@ -24,7 +24,7 @@
           }
     
         #subscribe {
-            font-weight: 300;
+            font-weight: 400;
             margin-bottom: 25px;
             position: relative;
             top: 65%;
