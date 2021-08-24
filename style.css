@@ -1,9 +1,12 @@
 
-         html body {
-            cursor: default;
+         html{
+          cursor: default;
+          font-family: "Montserrat", sans-serif; /* Default font */
+          font-size: 32px;
+         }
+         body {   
             margin: 0; 
-            padding: 0; 
-            font-family: "Montserrat", sans-serif; /* Default font */
+            padding: 0;  
             width: 100%; 
             height: 100%;
             text-align: center;
@@ -29,7 +32,7 @@
           left: 0;
           bottom: 0;
           transition: opacity 0.3s ease;
-          width: 115px;
+          width: 100px;
           }
           .coffee-audio:hover {
             opacity: 0.5;
@@ -39,7 +42,7 @@
             margin-bottom: 25px;
             position: relative;
             top: 65%;
-            font-size: 34px;
+            font-size: 1.06rem;
         }
         #logo {
             position:fixed;
@@ -74,7 +77,7 @@
             opacity: 0.75;
           }
           .icon {
-            font-size: 32px;
+            font-size: 1rem;
             
           }
           .form-subscribe{
@@ -88,18 +91,20 @@
         }
 
         @media screen and (max-width:400px) {
+          html{
+            font-size: 16px
+          }
             #logo {
             width: 30%; /* Image width */
             border: 0; /* For IE */
         }
         #subscribe {
           position: relative;
-          top: 50%;
-          font-size: 32px;
+          top: 55%;
       }
         .form-subscribe{
           position: relative;
-          top: 50%;
+          top: 55%;
         }
         .gif-bg {
           background-image:  url(./static/Coming-soon-verticle.gif);
@@ -113,7 +118,7 @@
       color:#333;
       border:none;
       outline:none;
-      font-size: 14px;
+      font-size: 0.5rem;
       margin: 8px 0;
       letter-spacing: 2px;
   }
@@ -122,7 +127,7 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
-    font-size: 14px;
+    font-size:  0.5rem;
     font-weight: 600;
     letter-spacing: 2px;
     transition: 0.5s;
