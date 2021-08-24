@@ -15,7 +15,7 @@
         .gif-bg {
             width: 100vw;
             height: 100vh;    
-            background-image:  url(./static/Coming-soon.gif);
+            background-image:  url(./static/Coming-soon-01-min.gif);
             background-repeat: no-repeat;
             background-position: center center;
             background-size:cover;	
@@ -29,6 +29,7 @@
           left: 0;
           bottom: 0;
           transition: opacity 0.3s ease;
+          width: 115px;
           }
           .coffee-audio:hover {
             opacity: 0.5;
@@ -99,6 +100,9 @@
         .form-subscribe{
           position: relative;
           top: 50%;
+        }
+        .gif-bg {
+          background-image:  url(./static/Coming-soon-verticle.gif);
         }
         
     }
