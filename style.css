@@ -31,7 +31,7 @@
           left: 0;
           bottom: 0;
           transition: opacity 0.3s ease;
-          margin: 0.2rem;
+          margin: 1rem;
           color: #eee;
           background: #b7a295;
           border:none;
@@ -122,13 +122,14 @@
     .form-subscribe input{
       font-weight: 600;
       background-color: #f5f5f5;
-      padding: 0.5rem;
+      padding: 0.4rem;
       color:#333;
       border:none;
       outline:none;
       font-size: 0.5rem;
       margin: 8px 0;
       letter-spacing: 2px;
+      border-radius: 2px;
   }
   .form-subscribe input[type="submit"]{
     max-width:100%;
@@ -140,6 +141,7 @@
     font-weight: 600;
     letter-spacing: 2px;
     transition: 0.5s;
+    border-radius: 2px;
 }
            
 
