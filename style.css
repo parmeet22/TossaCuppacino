@@ -25,16 +25,24 @@
             position:fixed;
             
           }
-        .coffee-audio {
-          opacity: 0.2;
+        #coffeeAudioButton{
           position: fixed;
-          margin: 10px;
+          opacity: 0.3;
           left: 0;
           bottom: 0;
           transition: opacity 0.3s ease;
-          width: 100px;
+          margin: 0.2rem;
+          color: #eee;
+          background: #b7a295;
+          border:none;
+          border-radius: 2px;
+          width: 2rem;
+          padding: 0.4rem;
           }
-          .coffee-audio:hover {
+          #coffeeAudioButton > i{
+            font-size: 0.5rem;
+          }
+          #coffeeAudioButton:hover {
             opacity: 0.5;
             }
         #subscribe {
@@ -114,7 +122,7 @@
     .form-subscribe input{
       font-weight: 600;
       background-color: #f5f5f5;
-      padding: 10px;
+      padding: 0.5rem;
       color:#333;
       border:none;
       outline:none;
@@ -127,6 +135,7 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
+    height: 1.5rem;
     font-size:  0.5rem;
     font-weight: 600;
     letter-spacing: 2px;

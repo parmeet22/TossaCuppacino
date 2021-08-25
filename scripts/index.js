@@ -3,7 +3,9 @@ const formSubscribe = document.querySelector(".form-subscribe");
 const email = document.querySelector("#email");
 const subscribeMsg = document.querySelector('#subscribe');
 // const coffeeAudio = document.querySelector('#coffeeAudio');
-
+const button = document.querySelector("#coffeeAudioButton");
+const icon = document.querySelector("#coffeeAudioButton > i");
+const audio = document.querySelector("#coffeeAudio");
 
 formSubscribe.addEventListener("submit", (e) => { 
 e.preventDefault();
@@ -23,4 +25,19 @@ fetch('/api/postEmail', {
     console.log(data);
   });
 
+});
+
+
+
+button.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+    icon.classList.remove('fa-volume-up');
+    icon.classList.add('fa-volume-mute');
+    
+  } else {
+    audio.pause();
+    icon.classList.remove('fa-volume-mute');
+    icon.classList.add('fa-volume-up');
+  }
 });
