@@ -128,7 +128,6 @@
       font-weight: inherit;
       font-size: inherit;
       text-align: center; 
-      line-height: 2.00; 
       background-color: #f5f5f5;
       color: inherit;
       padding: 0.4rem;
@@ -143,7 +142,6 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
-    height: 1.5rem;   
     font-weight: 600;
     letter-spacing: 2px;
     transition: 0.5s;
