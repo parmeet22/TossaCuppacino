@@ -96,8 +96,7 @@
           .form-subscribe{
             position: relative;
             -webkit-box-sizing:border-box;
-            -moz-box-sizing:border-box;
-            -webkit-appearance: none;
+            -moz-box-sizing:border-box;   
              box-sizing:border-box;
             font-size: 0.5rem;
             font-weight: 600;
@@ -126,7 +125,7 @@
       }
         .form-subscribe{
           position: relative;
-          font-size: 0.6rem;
+          font-size: 0.7rem;
           font-weight: 550;
           top: 70%;
         }
@@ -136,6 +135,10 @@
         
     }
     .form-subscribe input{
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      opacity: 1;
       font-weight: inherit;
       font-size: inherit;
       text-align: center; 
