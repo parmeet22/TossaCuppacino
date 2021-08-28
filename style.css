@@ -3,6 +3,7 @@
           cursor: default;
           font-family: "Montserrat", sans-serif; /* Default font */
           font-size: 32px;
+          color: rgb(99, 51, 16);
          }
          body {   
             margin: 0; 
@@ -11,7 +12,7 @@
             height: 100%;
             text-align: center;
             background-color: #b7a295;
-            color: #3A2E2E;
+           
             opacity: 1;
             animation: fadein 3s forwards;
         }
@@ -90,6 +91,8 @@
           }
           .form-subscribe{
             position: relative;
+            font-size: 0.5rem;
+            font-weight: 600;
             top: 65%;          
           }
          
@@ -108,11 +111,13 @@
         }
         #subscribe {
           position: relative;
-          top: 55%;
+          top: 20%;
       }
         .form-subscribe{
           position: relative;
-          top: 55%;
+          font-size: 0.6rem;
+          font-weight: 550;
+          top: 65%;
         }
         .gif-bg {
           background-image:  url(./static/Coffee-mug-verticle.gif);
@@ -120,13 +125,13 @@
         
     }
     .form-subscribe input{
-      font-weight: 600;
+      font-weight: inherit;
+      font-size: inherit;
       background-color: #f5f5f5;
+      color: inherit;
       padding: 0.4rem;
-      color:#333;
       border:none;
-      outline:none;
-      font-size: 0.5rem;
+      outline:none;    
       margin: 8px 0;
       letter-spacing: 2px;
       border-radius: 2px;
@@ -136,8 +141,7 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
-    height: 1.5rem;
-    font-size:  0.5rem;
+    height: 1.5rem;   
     font-weight: 600;
     letter-spacing: 2px;
     transition: 0.5s;
