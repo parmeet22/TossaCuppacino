@@ -72,9 +72,9 @@
             vertical-align: middle;
             box-sizing: border-box;
         }
-        .anchor {
+        .email-anchor {
             position:fixed;
-            padding: 10px;  
+            padding: 10px;
             right: 0;
             text-decoration: none;
             color: inherit;         
@@ -82,7 +82,7 @@
             box-sizing: border-box;
             transition: opacity 0.3s ease;
           }
-          .anchor:hover{
+          .email-anchor:hover{
             opacity: 0.75;
           }
           .icon {
@@ -91,6 +91,9 @@
           }
           .form-subscribe{
             position: relative;
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+             box-sizing:border-box;
             font-size: 0.5rem;
             font-weight: 600;
             top: 65%;          
@@ -117,7 +120,7 @@
           position: relative;
           font-size: 0.6rem;
           font-weight: 550;
-          top: 65%;
+          top: 70%;
         }
         .gif-bg {
           background-image:  url(./static/Coffee-mug-verticle.gif);
@@ -128,7 +131,6 @@
       font-weight: inherit;
       font-size: inherit;
       text-align: center; 
-      line-height: 0.5rem;
       background-color: #f5f5f5;
       color: inherit;
       padding: 0.4rem;
@@ -143,10 +145,7 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
-    font-weight: 600;
-    letter-spacing: 2px;
     transition: 0.5s;
-    border-radius: 2px;
 }
            
 
