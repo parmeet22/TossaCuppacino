@@ -46,12 +46,16 @@
           #coffeeAudioButton:hover {
             opacity: 0.5;
             }
-        #subscribe {
+        .subscribe {
             font-weight: 400;
             margin-bottom: 25px;
             position: relative;
             top: 65%;
             font-size: 1.06rem;
+            animation: fadein 3s ease;
+        }
+        .visible-none{
+          display: none;
         }
         #logo {
             position:fixed;
@@ -93,6 +97,7 @@
             position: relative;
             -webkit-box-sizing:border-box;
             -moz-box-sizing:border-box;
+            -webkit-appearance: none;
              box-sizing:border-box;
             font-size: 0.5rem;
             font-weight: 600;
@@ -103,6 +108,9 @@
         @keyframes fadein  {
             from { opacity: 0; }
         }
+        @keyframes fadein  {
+          from { display: none; }
+      }
 
         @media only screen and (max-width:500px) {
           html{
@@ -112,9 +120,9 @@
             width: 30%; /* Image width */
             border: 0; /* For IE */
         }
-        #subscribe {
+        .subscribe {
           position: relative;
-          top: 20%;
+          top: 70%;
       }
         .form-subscribe{
           position: relative;

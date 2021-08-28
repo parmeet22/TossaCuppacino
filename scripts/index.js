@@ -1,7 +1,8 @@
 
 const formSubscribe = document.querySelector(".form-subscribe");
 const email = document.querySelector("#email");
-const subscribeMsg = document.querySelector('#subscribe');
+const subscribeMsg = document.querySelector('#subscribeMessage');
+const subscribeSuccessMsg = document.querySelector('#subscribeSuccess');
 // const coffeeAudio = document.querySelector('#coffeeAudio');
 const button = document.querySelector("#coffeeAudioButton");
 const icon = document.querySelector("#coffeeAudioButton > i");
@@ -19,7 +20,8 @@ fetch('/api/postEmail', {
     headers: myHeaders
   }).then(function(response) {
     console.log(response);
-    subscribeMsg.innerHTML = 'Thanks for Subscribing!';
+    subscribeMsg.classList.add('visible-none');
+    subscribeSuccessMsg.classList.remove('visible-none');
     formSubscribe.remove(true);
   }).catch(function(data) {
     console.log(data);
