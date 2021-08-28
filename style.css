@@ -52,9 +52,11 @@
             position: relative;
             top: 65%;
             font-size: 1.06rem;
-            animation: fadein 3s ease;
+            opacity: 1;
+            transition: opacity 0.3s ease;
         }
         .visible-none{
+          opacity: 0;
           display: none;
         }
         #logo {
@@ -107,9 +109,7 @@
         @keyframes fadein  {
             from { opacity: 0; }
         }
-        @keyframes fadein  {
-          from { display: none; }
-      }
+        
 
         @media only screen and (max-width:500px) {
           html{
@@ -156,7 +156,6 @@
     background-color: #b7a295;
     color: white;
     cursor:pointer;
-    transition: 0.5s;
 }
            
 
